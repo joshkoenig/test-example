@@ -47,9 +47,9 @@ describe('Search engine tests', function() {
 
   it('should show the Google main search page',function(done) {
     client
-      .url('https://www.google.com/?gfe_rd=cr&ei=ku8bVbG3K-SG8QeFmICQDg&gws_rd=cr&fg=1')
+      .url('https://pantheon.io/')
       .webdrivercss(testName, {
-        name: 'Froooogle'
+        name: 'google'
       }, shoovWebdrivercss.processResults)
       .call(done);
 
