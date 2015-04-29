@@ -49,7 +49,7 @@ describe('Search engine tests', function() {
     client
       .url('https://www.google.com/?gfe_rd=cr&ei=ku8bVbG3K-SG8QeFmICQDg&gws_rd=cr&fg=1')
       .webdrivercss(testName, {
-        name: 'google'
+        name: 'Froooogle'
       }, shoovWebdrivercss.processResults)
       .call(done);
 
